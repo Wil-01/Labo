@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+}
+
+body{
+    font-family: 'Manrope',sans-serif;
+    font-size: 1em;
+    background-color: #1F2039;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+em{
+    color: #A5B4FC;
+    font-style: normal;
+}
+
+h1{
+    font-size: 3.5em;
+    font-family: 'Montserrat' ,sans-serif;
+    color: #A5B4FC;
+
+}
+
+h2{
+    color: #F9F8FF;
+}
+
+.Section h2{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.Section ul{
+    margin-top: 30px;
+
+}
+
+p,li{
+    font-size: 1.1em;
+    color: #F9F8FF;
+}
+
+
+header , footer{
+    background-color: white;
+    color: black;
+    padding: 20px 50px 20px 50px;
+}
+
+header img{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.Section{
+    border-right: 1px solid #A5B4FC;
+    border-bottom: 1px solid #A5B4FC;
+    padding: 50px;
+}
+
+section{
+    padding: 80px;
+}
+
+.a_propos_contenu{
+    width: 50%;
+    margin: auto;
+}
+
+.a_propos_contenu > section > h1{
+    text-align: center;
+}
+
+.new_lien{
+    display: inline-block;
+  background: linear-gradient(#8e86b5, #acaeed);
+  color: white;
+  border-radius: 50px;
+  padding: 20px 30px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.new_lien:hover {
+    background: linear-gradient(#696484, #8788BA)
+    }
+
+.lien-portfolio{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.lien:hover{
+    opacity: 0.5;
+}
+
+nav a{
+    margin-left: 30px;
+    color: #1F2039;
+}
+
+.Image{
+    padding: 80px;
+    background-color: white;
+}
+
+.Image div{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 15px;
+
+}
+
+.Image h2{
+    color: #242424;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.section1{
+    display: flex;                                                          
+    flex-direction: row;
+    align-items: center;
+    width: 67%;
+    margin: auto;
+
+}
+
+.acceuil{
+    display: inline-block;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.acceuil-img{
+    margin-left: 80px;
+}
+
+footer, nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.portfolio-section-photos {
+    background-color: white;
+  }
+  
+  .portfolio-section-photos h2 {
+    color: #242424;
+    margin-bottom: 80px;
+    
+  }
+
+  .grid-paysages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    grid-gap: 15px;
+}
+
+.grid-portraits {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    grid-gap: 15px;
+}
+  
+  .grid-paysages a img,
+  .grid-portraits a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .conteneur_photo{
+    position: relative;
+}
+
+.photo_hover{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: #ffffff;
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none; 
+
+}
+
+.conteneur_photo:hover .photo_hover{
+    display: flex;
+}
+
+caption{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.Tableau{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    color: #F9F8FF;
+    margin: 2%;
+}
+
+td,th{
+    border: 1px solid #626494;
+    padding: 15px;
+    font-size: 20px;
+    
+}
+
+td{
+    padding: 70px;
+}
+
+.section-contact h2 {
+    color: #a5b4fc;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 70px;
+}
+
+form{
+    color: #ffffff;
+    display: flex;
+    margin: auto;
+    width: 80%;
+    flex-direction: column;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#nom, #email{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+input, textarea{
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+label{
+    margin-bottom: 10px;
+    
+}
+
+input[type='submit'] {
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
